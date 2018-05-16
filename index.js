@@ -1,2 +1,2 @@
-const logger = require('./src/Logger.js')
-module.exports = logger
+const Logger = require('./src/Logger.js')
+module.exports = Logger
