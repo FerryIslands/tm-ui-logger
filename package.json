@@ -2,11 +2,13 @@
   "name": "tm-ui-logger",
   "version": "1.0.0",
   "description": "Logging library for tm projects",
+  "license": "MIT",
+  "author": "Giorgio Salmi <giorgio.salmi@stenaline.com>",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "license": "MIT",
   "dependencies": {
     "deep-extend": "^0.5.1",
     "loglevel": "^1.6.1",
