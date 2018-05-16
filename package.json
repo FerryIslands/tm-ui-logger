@@ -1,13 +1,12 @@
 {
   "name": "tm-ui-logger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Logging library for tm projects",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "deep-extend": "^0.5.1",
     "loglevel": "^1.6.1",
