@@ -1,0 +1,12 @@
+; EditorConfig - http://editorconfig.org/
+
+; Top-most EditorConfig file
+root = true
+
+; Newlines
+[*]
+end_of_line = LF
+
+[*.{js,json}]
+indent_style = space
+indent_size = 2
