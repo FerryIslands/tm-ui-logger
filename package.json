@@ -5,6 +5,14 @@
   "license": "MIT",
   "author": "Giorgio Salmi <giorgio.salmi@stenaline.com>",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerryIslands/tm-ui-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FerryIslands/tm-ui-logger/issues"
+  },
+  "homepage": "https://github.com/FerryIslands/tm-ui-logger#tm-ui-logger",
   "main": "index.js",
   "scripts": {
     "test": "jest"
