@@ -1,6 +1,8 @@
+const extend = require('deep-extend')
+
 module.exports = {
   convertLogObjectToLogEvent: log => {
-    let logEvent = { ...log }
+    let logEvent = extend({}, log)
     logEvent.level = log.level.label
     logEvent.severity = log.level.value
 
