@@ -55,6 +55,7 @@ export default class Logger {
       remoteConfig.depth = prefixConfig.enabled ? 1 : 0
 
       if (prefixConfig.enabled) {
+        prefix.reg(log)
         prefix.apply(log, prefixConfig)
       }
 
